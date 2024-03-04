@@ -12,6 +12,12 @@ GROUP BY ?city
 
 Quantas cidades se podem atingir a partir do Porto?
 33 (Viana)
+select  (COUNT(?ligacao) AS ?count) where { 
+	?city :pertenceDistrito :Porto.
+    ?ligacao :temCidadeOrigem ?city .
+} 
+94(porto)
+
 
 Quais as cidades com população acima de um determinado valor?
 SELECT ?city WHERE { 
@@ -19,4 +25,3 @@ SELECT ?city WHERE {
   BIND(xsd:integer(?populationString) AS ?population)
   FILTER(?population > 270841)
 }
-LIMIT 100
