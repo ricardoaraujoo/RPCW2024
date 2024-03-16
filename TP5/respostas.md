@@ -1,5 +1,11 @@
 Que filmes de uma curta metragem?
 
+PREFIX schema: <http://schema.org/>
+SELECT DISTINCT ?filme WHERE {
+  ?filme a schema:Movie ;
+         dbo:runtime ?tempo.
+  FILTER(?tempo < 900)
+} LIMIT 500
 
 
 Que filmes de ação eu tenho?
