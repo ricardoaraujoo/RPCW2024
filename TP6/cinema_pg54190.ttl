@@ -1,0 +1,1974 @@
+
+@prefix : <http://rpcw.di.uminho.pt/2024/cinema/> .@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://rpcw.di.uminho.pt/2024/cinema> a owl:Ontology .
+
+:Ca-bau-kan a :Film,
+        owl:NamedIndividual ;
+    :hasActor :Ferry_Salim,
+        :Lola_Amaria,
+        :Niniek_L._Karim ;
+    :hasComposer :Andi_Rianto ;
+    :hasDirector :Nia_Dinata ;
+    :hasWriter :Nia_Dinata ;
+    :title <entrada['name'][0]> .
+
+<http://rpcw.di.uminho.pt/2024/cinema/Cab_Calloway's_Jitterbug_Party> a :Film,
+        owl:NamedIndividual ;
+    :hasActor :Cab_Calloway ;
+    :hasComposer :Cab_Calloway ;
+    :hasDirector :Fred_Waller ;
+    :hasWriter :Fred_Rath_\(screenwriter\),
+        :Milton_Hockey ;
+    :title <entrada['name'][0]> .
+
+:Cab_Number_13 a :Film,
+        owl:NamedIndividual ;
+    :hasActor :Vera_Carmi ;
+    :hasComposer :Renzo_Rossellini_\(composer\) ;
+    :hasDirector :Mario_Mattoli,
+        :Raoul_André ;
+    :hasWriter :André_Hugon,
+        :Xavier_de_Montépin ;
+    :title <entrada['name'][0]> .
+
+:Cabaret_Balkan a :Film,
+        owl:NamedIndividual ;
+    :hasActor :Bata_Živojinović,
+        :Bogdan_Diklić,
+        :Dragan_Nikolić,
+        :Miki_Manojlović,
+        :Mirjana_Karanović,
+        :Nebojša_Glogovac,
+        :Sergej_Trifunović ;
+    :hasComposer :Zoran_Simjanović ;
+    :hasDirector :Goran_Paskaljević ;
+    :hasWriter :Filip_David,
+        :Goran_Paskaljević ;
+    :title <entrada['name'][0]> .
+
+:Cabaret_Dancer a :Film,
+        owl:NamedIndividual ;
+    :hasActor :Anuradha_\(actress\),
+        :M._G._Soman,
+        :Santhosh_\(actor\),
+        :Sathaar ;
+    :hasComposer :Shyam_\(composer\) ;
+    :hasDirector :N._Sankaran_Nair ;
+    :hasWriter :Sastha ;
+    :title <entrada['name'][0]> .
+
+:Cabaret_Paradis a :Film,
+        owl:NamedIndividual ;
+    :hasActor :Christian_Hecq,
+        :Maaike_Jansen,
+        :Michel_Vuillermoz,
+        :Riton_Liebman,
+        :Shirley_and_Dino ;
+    :hasComposer :Gilles_Douieb ;
+    :hasDirector :Shirley_and_Dino ;
+    :hasWriter :Shirley_and_Dino ;
+    :title <entrada['name'][0]> .
+
+:Cabin_Boy a :Film,
+        owl:NamedIndividual ;
+    :hasActor :Brian_Doyle-Murray,
+        :Brion_James,
+        :Chris_Elliott,
+        :James_Gammon,
+        :Melora_Walters,
+        :Ritch_Brinkley ;
+    :hasComposer :Steve_Bartek ;
+    :hasDirector :Adam_Resnick ;
+    :hasWriter :Adam_Resnick,
+        :Chris_Elliott ;
+    :title <entrada['name'][0]> .
+
+:Cabin_Fever a :Film,
+        owl:NamedIndividual ;
+    :hasActor :Arie_Verveen,
+        :Cerina_Vincent,
+        :Giuseppe_Andrews,
+        :Joey_Kern,
+        :Jordan_Ladd,
+        :Rider_Strong ;
+    :hasComposer :Nathan_Barr ;
+    :hasDirector :Eli_Roth ;
+    :hasWriter :Eli_Roth ;
+    :title <entrada['name'][0]> .
+
+:Cabin_in_the_Sky a :Film,
+        owl:NamedIndividual ;
+    :hasActor :Eddie_%22Rochester%22_Anderson,
+        :Ethel_Waters,
+        :Lena_Horne,
+        :Louis_Armstrong,
+        :Rex_Ingram_\(actor\) ;
+    :hasComposer :George_Bassman,
+        :Georgie_Stoll,
+        :Hall_Johnson,
+        :Roger_Edens ;
+    :hasDirector :Busby_Berkeley,
+        :Vincente_Minnelli ;
+    :hasWriter :Marc_Connelly ;
+    :title <entrada['name'][0]> .
+
+:Cabiria a :Film,
+        owl:NamedIndividual ;
+    :hasActor :Bartolomeo_Pagano ;
+    :hasComposer :Ildebrando_Pizzetti,
+        :Manlio_Mazza ;
+    :hasDirector :Giovanni_Pastrone ;
+    :hasWriter <http://rpcw.di.uminho.pt/2024/cinema/Gabriele_D'Annunzio>,
+        :Giovanni_Pastrone ;
+    :title <entrada['name'][0]> .
+
+:Caboblanco a :Film,
+        owl:NamedIndividual ;
+    :hasActor :Charles_Bronson,
+        :Denny_Miller,
+        :Dominique_Sanda,
+        :Fernando_Rey,
+        :Jason_Robards ;
+    :hasComposer :Jerry_Goldsmith ;
+    :hasDirector :J._Lee_Thompson ;
+    :hasWriter :Morton_S._Fine ;
+    :title <entrada['name'][0]> .
+
+:Caccia_al_tesoro a :Film,
+        owl:NamedIndividual ;
+    :hasActor :Carlo_Buccirosso,
+        :Max_Tortora,
+        :Serena_Rossi,
+        :Vincenzo_Salemme ;
+    :hasComposer :Giuliano_Taviani ;
+    :hasDirector :Carlo_Vanzina ;
+    :hasWriter :Carlo_Vanzina ;
+    :title <entrada['name'][0]> .
+
+<http://rpcw.di.uminho.pt/2024/cinema/Caccia_all'uomo> a :Film,
+        owl:NamedIndividual ;
+    :hasActor :Eleonora_Rossi_Drago,
+        :Yvonne_Furneaux ;
+    :hasComposer :Marcello_Giombini ;
+    :hasDirector :Riccardo_Freda ;
+    :hasWriter :Luciano_Martino ;
+    :title <entrada['name'][0]> .
+
+:Cactus_Flower a :Film,
+        owl:NamedIndividual ;
+    :hasActor :Goldie_Hawn,
+        :Ingrid_Bergman,
+        :Walter_Matthau ;
+    :hasComposer :Quincy_Jones ;
+    :hasDirector :Gene_Saks ;
+    :hasWriter :I._A._L._Diamond ;
+    :title <entrada['name'][0]> .
+
+:Caddyshack a :Film,
+        owl:NamedIndividual ;
+    :hasActor :Bill_Murray,
+        :Chevy_Chase,
+        <http://rpcw.di.uminho.pt/2024/cinema/Michael_O'Keefe>,
+        :Rodney_Dangerfield,
+        :Ted_Knight ;
+    :hasComposer :Johnny_Mandel ;
+    :hasDirector :Harold_Ramis ;
+    :hasWriter :Brian_Doyle-Murray,
+        :Douglas_Kenney,
+        :Harold_Ramis ;
+    :title <entrada['name'][0]> .
+
+:Caddyshack_II a :Film,
+        owl:NamedIndividual ;
+    :hasActor :Brian_McNamara,
+        :Chevy_Chase,
+        :Dan_Aykroyd,
+        :Dina_Merrill,
+        :Dyan_Cannon,
+        :Jackie_Mason,
+        :Jonathan_Silverman,
+        :Marsha_Warfield,
+        :Paul_Bartel,
+        :Randy_Quaid,
+        :Robert_Stack ;
+    :hasComposer :Ira_Newborn ;
+    :hasDirector :Allan_Arkush ;
+    :hasWriter :Harold_Ramis,
+        :PJ_Torokvei ;
+    :title <entrada['name'][0]> .
+
+:Cadence a :Film,
+        owl:NamedIndividual ;
+    :hasActor :Charlie_Sheen,
+        :Laurence_Fishburne,
+        :Martin_Sheen,
+        :Michael_Beach,
+        :Ramon_Estevez ;
+    :hasComposer :Georges_Delerue ;
+    :hasDirector :Martin_Sheen ;
+    :hasWriter :Dennis_Shryack ;
+    :title <entrada['name'][0]> .
+
+:Cadet_Girl a :Film,
+        owl:NamedIndividual ;
+    :hasActor :Carole_Landis,
+        :George_Montgomery_\(actor\),
+        :Janis_Carter,
+        :Robert_Lowery_\(actor\),
+        :Shepperd_Strudwick,
+        :William_Tracy ;
+    :hasComposer :David_Buttolph ;
+    :hasDirector :Ray_McCarey ;
+    :hasWriter :Stanley_Rauh ;
+    :title <entrada['name'][0]> .
+
+:Cadetes_de_San_Martín a :Film,
+        owl:NamedIndividual ;
+    :hasActor :Enrique_Muiño ;
+    :hasComposer :Hans_Diernhammer ;
+    :hasDirector :Mario_Soffici ;
+    :hasWriter :José_A._Saldías ;
+    :title <entrada['name'][0]> .
+
+:Cado_dalle_nubi a :Film,
+        owl:NamedIndividual ;
+    :hasActor :Checco_Zalone,
+        :Giulia_Michelini ;
+    :hasComposer :Checco_Zalone ;
+    :hasDirector :Gennaro_Nunziante ;
+    :hasWriter :Checco_Zalone,
+        :Gennaro_Nunziante ;
+    :title <entrada['name'][0]> .
+
+:Caesar_and_Cleopatra a :Film,
+        owl:NamedIndividual ;
+    :hasActor :Claude_Rains,
+        :Vivien_Leigh ;
+    :hasComposer :Georges_Auric ;
+    :hasDirector :Gabriel_Pascal ;
+    :hasWriter :George_Bernard_Shaw ;
+    :title <entrada['name'][0]> .
+
+:Cafe_Metropole a :Film,
+        owl:NamedIndividual ;
+    :hasActor :Adolphe_Menjou,
+        :Loretta_Young,
+        :Tyrone_Power ;
+    :hasComposer :Cyril_J._Mockridge,
+        :David_Buttolph ;
+    :hasDirector :Edward_H._Griffith ;
+    :hasWriter :Jacques_Deval ;
+    :title <entrada['name'][0]> .
+
+:Cafe_Society a :Film,
+        owl:NamedIndividual ;
+    :hasActor :Fred_MacMurray,
+        :Madeleine_Carroll,
+        :Shirley_Ross ;
+    :hasComposer :Leo_Shuken ;
+    :hasDirector :Edward_H._Griffith ;
+    :hasWriter :Virginia_Van_Upp ;
+    :title <entrada['name'][0]> .
+
+:Café_Derby a :Film,
+        owl:NamedIndividual ;
+    :hasActor :Chloë_Daxhelet,
+        :Monic_Hendrickx,
+        :Wim_Opbrouck ;
+    :hasComposer :Lady_Linn ;
+    :hasDirector :Lenny_Van_Wesemael ;
+    :hasWriter :Lenny_Van_Wesemael ;
+    :title <entrada['name'][0]> .
+
+:Café_Express a :Film,
+        owl:NamedIndividual ;
+    :hasActor :Nino_Manfredi ;
+    :hasComposer :Giovanna_Marini ;
+    :hasDirector :Nanni_Loy ;
+    :hasWriter :Elvio_Porta,
+        :Nanni_Loy,
+        :Nino_Manfredi ;
+    :title <entrada['name'][0]> .
+
+:Café_Paradis a :Film,
+        owl:NamedIndividual ;
+    :hasActor :Ib_Schønberg,
+        :Poul_Reichhardt ;
+    :hasComposer :Sven_Gyldmark ;
+    :hasDirector :Bodil_Ipsen,
+        <http://rpcw.di.uminho.pt/2024/cinema/Lau_Lauritzen_Jr.> ;
+    :hasWriter :Johannes_Allen ;
+    :title <entrada['name'][0]> .
+
+:Cage_of_Gold a :Film,
+        owl:NamedIndividual ;
+    :hasActor :David_Farrar_\(actor\),
+        :Herbert_Lom,
+        :James_Donald,
+        :Jean_Simmons ;
+    :hasComposer :Georges_Auric ;
+    :hasDirector :Basil_Dearden ;
+    :hasWriter :Jack_Whittingham,
+        :Paul_L._Stein ;
+    :title <entrada['name'][0]> .
+
+:Caged a :Film,
+        owl:NamedIndividual ;
+    :hasActor :Agnes_Moorehead,
+        :Betty_Garde,
+        :Eleanor_Parker,
+        :Ellen_Corby,
+        :Hope_Emerson ;
+    :hasComposer :Max_Steiner ;
+    :hasDirector :John_Cromwell_\(director\) ;
+    :hasWriter :Bernard_C._Schoenfeld,
+        :Virginia_Kellogg ;
+    :title <entrada['name'][0]> .
+
+:Caged_Heat a :Film,
+        owl:NamedIndividual ;
+    :hasActor :Barbara_Steele,
+        :Erica_Gavin,
+        :Rainbeaux_Smith,
+        :Roberta_Collins ;
+    :hasComposer :John_Cale ;
+    :hasDirector :Jonathan_Demme ;
+    :hasWriter :Jonathan_Demme ;
+    :title <entrada['name'][0]> .
+
+:Cain_XVIII a :Film,
+        owl:NamedIndividual ;
+    :hasActor :Aleksandr_Demyanenko,
+        :Erast_Garin,
+        :Yuri_Lyubimov ;
+    :hasComposer :Antonio_Spadaveccia ;
+    :hasDirector :Mikhail_Shapiro,
+        :Nadezhda_Kosheverova ;
+    :hasWriter :Evgeny_Shvarts,
+        :Nikolai_Erdman ;
+    :title <entrada['name'][0]> .
+
+:Cain_and_Mabel a :Film,
+        owl:NamedIndividual ;
+    :hasActor :Allen_Jenkins,
+        :Clark_Gable,
+        :Marion_Davies,
+        :Robert_Paige ;
+    :hasComposer :Al_Dubin,
+        :Bernhard_Kaun,
+        :Harry_Warren,
+        :Heinz_Eric_Roemheld ;
+    :hasDirector :Lloyd_Bacon ;
+    :hasWriter :H.C._Witwer,
+        :Laird_Doyle ;
+    :title <entrada['name'][0]> .
+
+:Cairo a :Film,
+        owl:NamedIndividual ;
+    :hasActor :Ahmed_Mazhar,
+        :Eric_Pohlmann,
+        :Faten_Hamama,
+        :George_Sanders,
+        :Jeanette_MacDonald,
+        :John_Meillon,
+        :Richard_Johnson_\(actor\),
+        :Robert_Young_\(actor\) ;
+    :hasComposer :Herbert_Stothart,
+        :Kenneth_V._Jones ;
+    :hasDirector :W._S._Van_Dyke,
+        :Wolf_Rilla ;
+    :hasWriter :Joan_LaCour_Scott,
+        :Ladislas_Fodor ;
+    :title <entrada['name'][0]> .
+
+:Caiçara a :Film,
+        owl:NamedIndividual ;
+    :hasActor :Carlos_Vergueiro,
+        :Eliane_Lage,
+        :Mário_Sérgio_\(actor\) ;
+    :hasComposer :Francisco_Mignone ;
+    :hasDirector :Adolfo_Celi,
+        :Tom_Payne_\(director\) ;
+    :hasWriter :Adolfo_Celi,
+        :Alberto_Cavalcanti ;
+    :title <entrada['name'][0]> .
+
+:Cake a :Film,
+        owl:NamedIndividual ;
+    :hasActor :Aamina_Sheikh,
+        :Adnan_Malik,
+        :Bruce_Gray,
+        :Cheryl_Hines,
+        :David_Sutcliffe,
+        :Heather_Graham,
+        :Keram_Malicki-Sánchez,
+        :Sanam_Saeed,
+        :Sandra_Oh,
+        :Sarah_Chalke,
+        :Syed_Mohammad_Ahmed,
+        :Taye_Diggs ;
+    :hasComposer :Andrew_Lockington,
+        :The_Sketches ;
+    :hasDirector :Asim_Abbasi,
+        :Nisha_Ganatra ;
+    :hasWriter :Asim_Abbasi,
+        :Tassie_Cameron ;
+    :title <entrada['name'][0]> .
+
+:Cal a :Film,
+        owl:NamedIndividual ;
+    :hasActor :Helen_Mirren,
+        :John_Lynch_\(actor\),
+        :Lucy_Russell_\(actress\),
+        :Simon_Cook_\(actor\) ;
+    :hasComposer :Cliff_Airey,
+        :Mark_Knopfler ;
+    :hasDirector :Christian_Martin_\(filmmaker\),
+        <http://rpcw.di.uminho.pt/2024/cinema/Pat_O'Connor_(director)> ;
+    :hasWriter :Bernard_MacLaverty,
+        :Christian_Martin_\(filmmaker\) ;
+    :title <entrada['name'][0]> .
+
+<http://rpcw.di.uminho.pt/2024/cinema/Cala,_My_Dog!> a :Film,
+        owl:NamedIndividual ;
+    :hasActor :Ding_Jiali,
+        :Ge_You,
+        :Li_Qinqin,
+        :Xia_Yu_\(actor\) ;
+    :hasComposer :Xiang_Min ;
+    :hasDirector :Lu_Xuechang ;
+    :hasWriter :Lu_Xuechang ;
+    :title <entrada['name'][0]> .
+
+:Calamari_Union a :Film,
+        owl:NamedIndividual ;
+    :hasActor :Dave_Lindholm,
+        :Kari_Heiskanen,
+        :Kari_Väänänen,
+        :Markku_Toikka,
+        :Mato_Valtonen,
+        :Matti_Pellonpää,
+        :Pate_Mustajärvi,
+        :Pirkka-Pekka_Petelius,
+        :Puntti_Valtonen,
+        :Sakari_Kuosmanen,
+        :Tuomari_Nurmio ;
+    :hasComposer :Aki_Kaurismäki ;
+    :hasDirector :Aki_Kaurismäki ;
+    :hasWriter :Aki_Kaurismäki ;
+    :title <entrada['name'][0]> .
+
+:Calcutta a :Film,
+        owl:NamedIndividual ;
+    :hasActor :Alan_Ladd,
+        :Gail_Russell,
+        :William_Bendix ;
+    :hasComposer :Victor_Young ;
+    :hasDirector :John_Farrow ;
+    :hasWriter :Seton_I._Miller ;
+    :title <entrada['name'][0]> .
+
+:Calcutta_71 a :Film,
+        owl:NamedIndividual ;
+    :hasActor :Ajitesh_Bandopadhyay,
+        :Asit_Bandopadhyay,
+        :Debraj_Roy,
+        :Madhabi_Mukherjee,
+        :Satya_Bandyopadhyay,
+        :Utpal_Dutt ;
+    :hasComposer :Ananda_Shankar ;
+    :hasDirector :Mrinal_Sen ;
+    :hasWriter :Ajitesh_Bandopadhyay,
+        :Manik_Bandopadhyay,
+        :Samaresh_Basu ;
+    :title <entrada['name'][0]> .
+
+:Calcutta_Mail a :Film,
+        owl:NamedIndividual ;
+    :hasActor :Anil_Kapoor,
+        :Manisha_Koirala,
+        :Rani_Mukerji ;
+    :hasComposer :Anand_Raj_Anand ;
+    :hasDirector :Sudhir_Mishra ;
+    :hasWriter :Gunasekhar,
+        :Sudhir_Mishra ;
+    :title <entrada['name'][0]> .
+
+:Calendar a :Film,
+        owl:NamedIndividual ;
+    :hasActor :Arsinée_Khanjian,
+        :Ashot_Adamyan,
+        :Atom_Egoyan,
+        :Mukesh_\(actor\),
+        :Navya_Nair,
+        :Prithviraj_Sukumaran,
+        :Zarina_Wahab ;
+    :hasComposer :Afzal_Yusuf,
+        :Djivan_Gasparyan,
+        :Eve_Egoyan,
+        :Hovhanness_Tarpinian,
+        :John_Grimaldi ;
+    :hasDirector :Atom_Egoyan,
+        :Mahesh_\(actor\) ;
+    :hasWriter :Atom_Egoyan,
+        :Babu_Janardhanan ;
+    :title <entrada['name'][0]> .
+
+:Calendar_Girl a :Film,
+        owl:NamedIndividual ;
+    :hasActor :Gail_Patrick,
+        :Jane_Frazee,
+        :Kenny_Baker_\(American_performer\),
+        :Victor_McLaglen,
+        :William_Marshall_\(bandleader\) ;
+    :hasComposer :Nathan_Scott_\(composer\) ;
+    :hasDirector :Allan_Dwan ;
+    :hasWriter :Lee_Loeb,
+        :Mary_Loos,
+        :Richard_Sale_\(director\) ;
+    :title <entrada['name'][0]> .
+
+:Calendar_Girls a :Film,
+        owl:NamedIndividual ;
+    :hasActor :Akanksha_Puri,
+        :Annette_Crosbie,
+        :Avani_Modi,
+        :Celia_Imrie,
+        :Harriet_Thorpe,
+        :Helen_Mirren,
+        :Julie_Walters,
+        :Kyra_Dutt,
+        :Linda_Bassett,
+        :Penelope_Wilton,
+        :Ruhi_Singh,
+        :Satarupa_Pyne ;
+    :hasComposer :Amaal_Mallik,
+        :Meet_Bros_Anjjan,
+        :Patrick_Doyle ;
+    :hasDirector :Madhur_Bhandarkar,
+        :Nigel_Cole ;
+    :hasWriter :Madhur_Bhandarkar,
+        :Tim_Firth ;
+    :title <entrada['name'][0]> .
+
+:Caliber_9 a :Film,
+        owl:NamedIndividual ;
+    :hasActor :Barbara_Bouchet,
+        :Frank_Wolff_\(actor\),
+        :Gastone_Moschin,
+        :Ivo_Garrani,
+        :Lionel_Stander,
+        :Luigi_Pistilli,
+        :Mario_Adorf,
+        :Philippe_Leroy_\(actor\) ;
+    :hasComposer :Luis_Enríquez_Bacalov,
+        :Osanna ;
+    :hasDirector :Fernando_Di_Leo ;
+    :hasWriter :Fernando_Di_Leo ;
+    :title <entrada['name'][0]> .
+
+:California a :Film,
+        owl:NamedIndividual ;
+    :hasActor :Barbara_Stanwyck,
+        :Barry_Fitzgerald,
+        :Ray_Milland ;
+    :hasComposer :Victor_Young ;
+    :hasDirector :John_Farrow ;
+    :hasWriter :Frank_Butler_\(writer\),
+        :Seton_I._Miller ;
+    :title <entrada['name'][0]> .
+
+:California_Joe a :Film,
+        owl:NamedIndividual ;
+    :hasActor :Don_%22Red%22_Barry,
+        :Helen_Talbot,
+        :Terry_Frost_\(actor\),
+        :Wally_Vernon ;
+    :hasComposer :Mort_Glickman ;
+    :hasDirector :Spencer_Gordon_Bennet ;
+    :hasWriter :Norman_S._Hall ;
+    :title <entrada['name'][0]> .
+
+:California_Mail a :Film,
+        owl:NamedIndividual ;
+    :hasActor :Dick_Foran,
+        :Edmund_Cobb,
+        :James_Farley_\(actor\),
+        :Milton_Kibbee ;
+    :hasComposer :Howard_Jackson_\(composer\) ;
+    :hasDirector :Noel_M._Smith ;
+    :hasWriter :Harold_Buckley ;
+    :title <entrada['name'][0]> .
+
+:California_Passage a :Film,
+        owl:NamedIndividual ;
+    :hasActor :Adele_Mara,
+        :Estelita_Rodriguez,
+        :Forrest_Tucker ;
+    :hasComposer :Nathan_Scott_\(composer\) ;
+    :hasDirector :Joseph_Kane ;
+    :hasWriter :James_Edward_Grant ;
+    :title <entrada['name'][0]> .
+
+<http://rpcw.di.uminho.pt/2024/cinema/Caligula:_The_Music> a :Film,
+        owl:NamedIndividual ;
+    :hasActor :Helen_Mirren,
+        :John_Gielgud,
+        :Malcolm_McDowell,
+        <http://rpcw.di.uminho.pt/2024/cinema/Peter_O'Toole>,
+        :Teresa_Ann_Savoy ;
+    :hasComposer :Aram_Khachaturian,
+        :Bruno_Nicolai ;
+    :hasDirector :Bob_Guccione,
+        :Tinto_Brass ;
+    :hasWriter :Gore_Vidal,
+        :Malcolm_McDowell,
+        :Tinto_Brass ;
+    :title <entrada['name'][0]> .
+
+:Genre a owl:Class .
+
+:Producer a owl:Class ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :Person [ a owl:Restriction ;
+                        owl:onProperty :produced ;
+                        owl:someValuesFrom :Film ] ) ] .
+
+:ScreenWriter a owl:Class ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :Person [ a owl:Restriction ;
+                        owl:onProperty :screenwrited ;
+                        owl:someValuesFrom :Film ] ) ] .
+
+:Screenplay a owl:Class ;
+    rdfs:subClassOf :Artwork .
+
+:TheSleepingBeauty a :Film,
+        owl:NamedIndividual ;
+    :description "Um filme da USSR" ;
+    :duration 76 ;
+    :hasActor :NikolaySimonov,
+        :VarvaraMyasnikova ;
+    :hasDirector :SergeiVasilyev ;
+    :hasScreenwriter :YevgeniShneider ;
+    :title "The Sleeping Beauty" .
+
+:birthDate a owl:DatatypeProperty .
+
+:description a owl:DatatypeProperty .
+
+:duration a owl:DatatypeProperty .
+
+:hasComposer a owl:ObjectProperty ;
+    rdfs:domain :Music ;
+    rdfs:range :Person .
+
+:hasMusic a owl:ObjectProperty ;
+    rdfs:domain :Film ;
+    rdfs:range :Music .
+
+:hasProducer a owl:ObjectProperty ;
+    rdfs:domain :Film ;
+    rdfs:range :Person ;
+    owl:inverseOf :produced .
+
+:hasScreenwriter a owl:ObjectProperty ;
+    owl:inverseOf :screenwrited .
+
+:name a owl:DatatypeProperty .
+
+:title a owl:DatatypeProperty .
+
+:wrote a owl:ObjectProperty ;
+    rdfs:domain :Person .
+
+:Aamina_Sheikh a :Actor,
+        owl:NamedIndividual .
+
+:Adele_Mara a :Actor,
+        owl:NamedIndividual .
+
+:Adnan_Malik a :Actor,
+        owl:NamedIndividual .
+
+:Adolphe_Menjou a :Actor,
+        owl:NamedIndividual .
+
+:Afzal_Yusuf a :Musician,
+        owl:NamedIndividual .
+
+:Agnes_Moorehead a :Actor,
+        owl:NamedIndividual .
+
+:Ahmed_Mazhar a :Actor,
+        owl:NamedIndividual .
+
+:Akanksha_Puri a :Actor,
+        owl:NamedIndividual .
+
+:Al_Dubin a :Musician,
+        owl:NamedIndividual .
+
+:Alan_Ladd a :Actor,
+        owl:NamedIndividual .
+
+:Alberto_Cavalcanti a :Writer,
+        owl:NamedIndividual .
+
+:Aleksandr_Demyanenko a :Actor,
+        owl:NamedIndividual .
+
+:Allan_Arkush a :Director,
+        owl:NamedIndividual .
+
+:Allan_Dwan a :Director,
+        owl:NamedIndividual .
+
+:Allen_Jenkins a :Actor,
+        owl:NamedIndividual .
+
+:Amaal_Mallik a :Musician,
+        owl:NamedIndividual .
+
+:Anand_Raj_Anand a :Musician,
+        owl:NamedIndividual .
+
+:Ananda_Shankar a :Musician,
+        owl:NamedIndividual .
+
+:Andi_Rianto a :Musician,
+        owl:NamedIndividual .
+
+:Andrew_Lockington a :Musician,
+        owl:NamedIndividual .
+
+:André_Hugon a :Writer,
+        owl:NamedIndividual .
+
+:Anil_Kapoor a :Actor,
+        owl:NamedIndividual .
+
+:Annette_Crosbie a :Actor,
+        owl:NamedIndividual .
+
+:Antonio_Spadaveccia a :Musician,
+        owl:NamedIndividual .
+
+:Anuradha_\(actress\) a :Actor,
+        owl:NamedIndividual .
+
+:Aram_Khachaturian a :Musician,
+        owl:NamedIndividual .
+
+:Arie_Verveen a :Actor,
+        owl:NamedIndividual .
+
+:Arsinée_Khanjian a :Actor,
+        owl:NamedIndividual .
+
+:Ashot_Adamyan a :Actor,
+        owl:NamedIndividual .
+
+:Asit_Bandopadhyay a :Actor,
+        owl:NamedIndividual .
+
+:Avani_Modi a :Actor,
+        owl:NamedIndividual .
+
+:Babu_Janardhanan a :Writer,
+        owl:NamedIndividual .
+
+:Barbara_Bouchet a :Actor,
+        owl:NamedIndividual .
+
+:Barbara_Stanwyck a :Actor,
+        owl:NamedIndividual .
+
+:Barbara_Steele a :Actor,
+        owl:NamedIndividual .
+
+:Barry_Fitzgerald a :Actor,
+        owl:NamedIndividual .
+
+:Bartolomeo_Pagano a :Actor,
+        owl:NamedIndividual .
+
+:Basil_Dearden a :Director,
+        owl:NamedIndividual .
+
+:Bata_Živojinović a :Actor,
+        owl:NamedIndividual .
+
+:Bernard_C._Schoenfeld a :Writer,
+        owl:NamedIndividual .
+
+:Bernard_MacLaverty a :Writer,
+        owl:NamedIndividual .
+
+:Bernhard_Kaun a :Musician,
+        owl:NamedIndividual .
+
+:Betty_Garde a :Actor,
+        owl:NamedIndividual .
+
+:Bill_Murray a :Actor,
+        owl:NamedIndividual .
+
+:Bob_Guccione a :Director,
+        owl:NamedIndividual .
+
+:Bodil_Ipsen a :Director,
+        owl:NamedIndividual .
+
+:Bogdan_Diklić a :Actor,
+        owl:NamedIndividual .
+
+:Brian_McNamara a :Actor,
+        owl:NamedIndividual .
+
+:Brion_James a :Actor,
+        owl:NamedIndividual .
+
+:Bruce_Gray a :Actor,
+        owl:NamedIndividual .
+
+:Bruno_Nicolai a :Musician,
+        owl:NamedIndividual .
+
+:Busby_Berkeley a :Director,
+        owl:NamedIndividual .
+
+:Carlo_Buccirosso a :Actor,
+        owl:NamedIndividual .
+
+:Carlos_Vergueiro a :Actor,
+        owl:NamedIndividual .
+
+:Carole_Landis a :Actor,
+        owl:NamedIndividual .
+
+:Celia_Imrie a :Actor,
+        owl:NamedIndividual .
+
+:Cerina_Vincent a :Actor,
+        owl:NamedIndividual .
+
+:Charles_Bronson a :Actor,
+        owl:NamedIndividual .
+
+:Charlie_Sheen a :Actor,
+        owl:NamedIndividual .
+
+:Cheryl_Hines a :Actor,
+        owl:NamedIndividual .
+
+:Chloë_Daxhelet a :Actor,
+        owl:NamedIndividual .
+
+:Christian_Hecq a :Actor,
+        owl:NamedIndividual .
+
+:Clark_Gable a :Actor,
+        owl:NamedIndividual .
+
+:Claude_Rains a :Actor,
+        owl:NamedIndividual .
+
+:Cliff_Airey a :Musician,
+        owl:NamedIndividual .
+
+:Country a owl:Class ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:oneOf ( :England :France :Portugal :Russia :Spain :USA ) ] .
+
+:Cyril_J._Mockridge a :Musician,
+        owl:NamedIndividual .
+
+:Dan_Aykroyd a :Actor,
+        owl:NamedIndividual .
+
+:Dave_Lindholm a :Actor,
+        owl:NamedIndividual .
+
+:David_Farrar_\(actor\) a :Actor,
+        owl:NamedIndividual .
+
+:David_Sutcliffe a :Actor,
+        owl:NamedIndividual .
+
+:Debraj_Roy a :Actor,
+        owl:NamedIndividual .
+
+:Dennis_Shryack a :Writer,
+        owl:NamedIndividual .
+
+:Denny_Miller a :Actor,
+        owl:NamedIndividual .
+
+:Dick_Foran a :Actor,
+        owl:NamedIndividual .
+
+:Dina_Merrill a :Actor,
+        owl:NamedIndividual .
+
+:Ding_Jiali a :Actor,
+        owl:NamedIndividual .
+
+:Djivan_Gasparyan a :Musician,
+        owl:NamedIndividual .
+
+:Dominique_Sanda a :Actor,
+        owl:NamedIndividual .
+
+:Don_%22Red%22_Barry a :Actor,
+        owl:NamedIndividual .
+
+:Douglas_Kenney a :Writer,
+        owl:NamedIndividual .
+
+:Dragan_Nikolić a :Actor,
+        owl:NamedIndividual .
+
+:Dyan_Cannon a :Actor,
+        owl:NamedIndividual .
+
+:Eddie_%22Rochester%22_Anderson a :Actor,
+        owl:NamedIndividual .
+
+:Edmund_Cobb a :Actor,
+        owl:NamedIndividual .
+
+:Eleanor_Parker a :Actor,
+        owl:NamedIndividual .
+
+:Eleonora_Rossi_Drago a :Actor,
+        owl:NamedIndividual .
+
+:Eliane_Lage a :Actor,
+        owl:NamedIndividual .
+
+:Ellen_Corby a :Actor,
+        owl:NamedIndividual .
+
+:Elvio_Porta a :Writer,
+        owl:NamedIndividual .
+
+:England a owl:NamedIndividual .
+
+:Enrique_Muiño a :Actor,
+        owl:NamedIndividual .
+
+:Erast_Garin a :Actor,
+        owl:NamedIndividual .
+
+:Eric_Pohlmann a :Actor,
+        owl:NamedIndividual .
+
+:Erica_Gavin a :Actor,
+        owl:NamedIndividual .
+
+:Estelita_Rodriguez a :Actor,
+        owl:NamedIndividual .
+
+:Ethel_Waters a :Actor,
+        owl:NamedIndividual .
+
+:Eve_Egoyan a :Musician,
+        owl:NamedIndividual .
+
+:Evgeny_Shvarts a :Writer,
+        owl:NamedIndividual .
+
+:Faten_Hamama a :Actor,
+        owl:NamedIndividual .
+
+:Fernando_Rey a :Actor,
+        owl:NamedIndividual .
+
+:Ferry_Salim a :Actor,
+        owl:NamedIndividual .
+
+:Filip_David a :Writer,
+        owl:NamedIndividual .
+
+:Forrest_Tucker a :Actor,
+        owl:NamedIndividual .
+
+:France a owl:NamedIndividual .
+
+:Francisco_Mignone a :Musician,
+        owl:NamedIndividual .
+
+:Frank_Butler_\(writer\) a :Writer,
+        owl:NamedIndividual .
+
+:Frank_Wolff_\(actor\) a :Actor,
+        owl:NamedIndividual .
+
+:Fred_MacMurray a :Actor,
+        owl:NamedIndividual .
+
+:Fred_Rath_\(screenwriter\) a :Writer,
+        owl:NamedIndividual .
+
+:Fred_Waller a :Director,
+        owl:NamedIndividual .
+
+:Gabriel_Pascal a :Director,
+        owl:NamedIndividual .
+
+<http://rpcw.di.uminho.pt/2024/cinema/Gabriele_D'Annunzio> a :Writer,
+        owl:NamedIndividual .
+
+:Gail_Patrick a :Actor,
+        owl:NamedIndividual .
+
+:Gail_Russell a :Actor,
+        owl:NamedIndividual .
+
+:Gastone_Moschin a :Actor,
+        owl:NamedIndividual .
+
+:Ge_You a :Actor,
+        owl:NamedIndividual .
+
+:Gene_Saks a :Director,
+        owl:NamedIndividual .
+
+:George_Bassman a :Musician,
+        owl:NamedIndividual .
+
+:George_Bernard_Shaw a :Writer,
+        owl:NamedIndividual .
+
+:George_Montgomery_\(actor\) a :Actor,
+        owl:NamedIndividual .
+
+:George_Sanders a :Actor,
+        owl:NamedIndividual .
+
+:Georges_Delerue a :Musician,
+        owl:NamedIndividual .
+
+:Georgie_Stoll a :Musician,
+        owl:NamedIndividual .
+
+:Gilles_Douieb a :Musician,
+        owl:NamedIndividual .
+
+:Giovanna_Marini a :Musician,
+        owl:NamedIndividual .
+
+:Giulia_Michelini a :Actor,
+        owl:NamedIndividual .
+
+:Giuliano_Taviani a :Musician,
+        owl:NamedIndividual .
+
+:Giuseppe_Andrews a :Actor,
+        owl:NamedIndividual .
+
+:Goldie_Hawn a :Actor,
+        owl:NamedIndividual .
+
+:Gore_Vidal a :Writer,
+        owl:NamedIndividual .
+
+:Gunasekhar a :Writer,
+        owl:NamedIndividual .
+
+:H.C._Witwer a :Writer,
+        owl:NamedIndividual .
+
+:Hall_Johnson a :Musician,
+        owl:NamedIndividual .
+
+:Hans_Diernhammer a :Musician,
+        owl:NamedIndividual .
+
+:Harold_Buckley a :Writer,
+        owl:NamedIndividual .
+
+:Harriet_Thorpe a :Actor,
+        owl:NamedIndividual .
+
+:Harry_Warren a :Musician,
+        owl:NamedIndividual .
+
+:Heather_Graham a :Actor,
+        owl:NamedIndividual .
+
+:Heinz_Eric_Roemheld a :Musician,
+        owl:NamedIndividual .
+
+:Helen_Talbot a :Actor,
+        owl:NamedIndividual .
+
+:Herbert_Lom a :Actor,
+        owl:NamedIndividual .
+
+:Herbert_Stothart a :Musician,
+        owl:NamedIndividual .
+
+:Hope_Emerson a :Actor,
+        owl:NamedIndividual .
+
+:Hovhanness_Tarpinian a :Musician,
+        owl:NamedIndividual .
+
+:Howard_Jackson_\(composer\) a :Musician,
+        owl:NamedIndividual .
+
+:I._A._L._Diamond a :Writer,
+        owl:NamedIndividual .
+
+:Ib_Schønberg a :Actor,
+        owl:NamedIndividual .
+
+:Ildebrando_Pizzetti a :Musician,
+        owl:NamedIndividual .
+
+:Ingrid_Bergman a :Actor,
+        owl:NamedIndividual .
+
+:Ira_Newborn a :Musician,
+        owl:NamedIndividual .
+
+:Ivo_Garrani a :Actor,
+        owl:NamedIndividual .
+
+:J._Lee_Thompson a :Director,
+        owl:NamedIndividual .
+
+:Jack_Whittingham a :Writer,
+        owl:NamedIndividual .
+
+:Jackie_Mason a :Actor,
+        owl:NamedIndividual .
+
+:Jacques_Deval a :Writer,
+        owl:NamedIndividual .
+
+:James_Donald a :Actor,
+        owl:NamedIndividual .
+
+:James_Edward_Grant a :Writer,
+        owl:NamedIndividual .
+
+:James_Farley_\(actor\) a :Actor,
+        owl:NamedIndividual .
+
+:James_Gammon a :Actor,
+        owl:NamedIndividual .
+
+:Jane_Frazee a :Actor,
+        owl:NamedIndividual .
+
+:Janis_Carter a :Actor,
+        owl:NamedIndividual .
+
+:Jason_Robards a :Actor,
+        owl:NamedIndividual .
+
+:Jean_Simmons a :Actor,
+        owl:NamedIndividual .
+
+:Jeanette_MacDonald a :Actor,
+        owl:NamedIndividual .
+
+:Jerry_Goldsmith a :Musician,
+        owl:NamedIndividual .
+
+:Joan_LaCour_Scott a :Writer,
+        owl:NamedIndividual .
+
+:Joey_Kern a :Actor,
+        owl:NamedIndividual .
+
+:Johannes_Allen a :Writer,
+        owl:NamedIndividual .
+
+:John_Cale a :Musician,
+        owl:NamedIndividual .
+
+:John_Cromwell_\(director\) a :Director,
+        owl:NamedIndividual .
+
+:John_Gielgud a :Actor,
+        owl:NamedIndividual .
+
+:John_Grimaldi a :Musician,
+        owl:NamedIndividual .
+
+:John_Lynch_\(actor\) a :Actor,
+        owl:NamedIndividual .
+
+:John_Meillon a :Actor,
+        owl:NamedIndividual .
+
+:Johnny_Mandel a :Musician,
+        owl:NamedIndividual .
+
+:Jonathan_Silverman a :Actor,
+        owl:NamedIndividual .
+
+:Jordan_Ladd a :Actor,
+        owl:NamedIndividual .
+
+:Joseph_Kane a :Director,
+        owl:NamedIndividual .
+
+:José_A._Saldías a :Writer,
+        owl:NamedIndividual .
+
+:Julie_Walters a :Actor,
+        owl:NamedIndividual .
+
+:Kari_Heiskanen a :Actor,
+        owl:NamedIndividual .
+
+:Kari_Väänänen a :Actor,
+        owl:NamedIndividual .
+
+:Kenneth_V._Jones a :Musician,
+        owl:NamedIndividual .
+
+:Kenny_Baker_\(American_performer\) a :Actor,
+        owl:NamedIndividual .
+
+:Keram_Malicki-Sánchez a :Actor,
+        owl:NamedIndividual .
+
+:Kyra_Dutt a :Actor,
+        owl:NamedIndividual .
+
+:Ladislas_Fodor a :Writer,
+        owl:NamedIndividual .
+
+:Lady_Linn a :Musician,
+        owl:NamedIndividual .
+
+:Laird_Doyle a :Writer,
+        owl:NamedIndividual .
+
+<http://rpcw.di.uminho.pt/2024/cinema/Lau_Lauritzen_Jr.> a :Director,
+        owl:NamedIndividual .
+
+:Laurence_Fishburne a :Actor,
+        owl:NamedIndividual .
+
+:Lee_Loeb a :Writer,
+        owl:NamedIndividual .
+
+:Lena_Horne a :Actor,
+        owl:NamedIndividual .
+
+:Leo_Shuken a :Musician,
+        owl:NamedIndividual .
+
+:Li_Qinqin a :Actor,
+        owl:NamedIndividual .
+
+:Linda_Bassett a :Actor,
+        owl:NamedIndividual .
+
+:Lionel_Stander a :Actor,
+        owl:NamedIndividual .
+
+:Lloyd_Bacon a :Director,
+        owl:NamedIndividual .
+
+:Lola_Amaria a :Actor,
+        owl:NamedIndividual .
+
+:Loretta_Young a :Actor,
+        owl:NamedIndividual .
+
+:Louis_Armstrong a :Actor,
+        owl:NamedIndividual .
+
+:Luciano_Martino a :Writer,
+        owl:NamedIndividual .
+
+:Lucy_Russell_\(actress\) a :Actor,
+        owl:NamedIndividual .
+
+:Luigi_Pistilli a :Actor,
+        owl:NamedIndividual .
+
+:Luis_Enríquez_Bacalov a :Musician,
+        owl:NamedIndividual .
+
+:M._G._Soman a :Actor,
+        owl:NamedIndividual .
+
+:Maaike_Jansen a :Actor,
+        owl:NamedIndividual .
+
+:Madeleine_Carroll a :Actor,
+        owl:NamedIndividual .
+
+:Madhabi_Mukherjee a :Actor,
+        owl:NamedIndividual .
+
+:Mahesh_\(actor\) a :Director,
+        owl:NamedIndividual .
+
+:Manik_Bandopadhyay a :Writer,
+        owl:NamedIndividual .
+
+:Manisha_Koirala a :Actor,
+        owl:NamedIndividual .
+
+:Manlio_Mazza a :Musician,
+        owl:NamedIndividual .
+
+:Marc_Connelly a :Writer,
+        owl:NamedIndividual .
+
+:Marcello_Giombini a :Musician,
+        owl:NamedIndividual .
+
+:Mario_Adorf a :Actor,
+        owl:NamedIndividual .
+
+:Mario_Mattoli a :Director,
+        owl:NamedIndividual .
+
+:Mario_Soffici a :Director,
+        owl:NamedIndividual .
+
+:Marion_Davies a :Actor,
+        owl:NamedIndividual .
+
+:Mark_Knopfler a :Musician,
+        owl:NamedIndividual .
+
+:Markku_Toikka a :Actor,
+        owl:NamedIndividual .
+
+:Marsha_Warfield a :Actor,
+        owl:NamedIndividual .
+
+:Mary_Loos a :Writer,
+        owl:NamedIndividual .
+
+:Mato_Valtonen a :Actor,
+        owl:NamedIndividual .
+
+:Matti_Pellonpää a :Actor,
+        owl:NamedIndividual .
+
+:Max_Steiner a :Musician,
+        owl:NamedIndividual .
+
+:Max_Tortora a :Actor,
+        owl:NamedIndividual .
+
+:Meet_Bros_Anjjan a :Musician,
+        owl:NamedIndividual .
+
+:Melora_Walters a :Actor,
+        owl:NamedIndividual .
+
+:Michael_Beach a :Actor,
+        owl:NamedIndividual .
+
+<http://rpcw.di.uminho.pt/2024/cinema/Michael_O'Keefe> a :Actor,
+        owl:NamedIndividual .
+
+:Michel_Vuillermoz a :Actor,
+        owl:NamedIndividual .
+
+:Mikhail_Shapiro a :Director,
+        owl:NamedIndividual .
+
+:Miki_Manojlović a :Actor,
+        owl:NamedIndividual .
+
+:Milton_Hockey a :Writer,
+        owl:NamedIndividual .
+
+:Milton_Kibbee a :Actor,
+        owl:NamedIndividual .
+
+:Mirjana_Karanović a :Actor,
+        owl:NamedIndividual .
+
+:Monic_Hendrickx a :Actor,
+        owl:NamedIndividual .
+
+:Mort_Glickman a :Musician,
+        owl:NamedIndividual .
+
+:Morton_S._Fine a :Writer,
+        owl:NamedIndividual .
+
+:Mrinal_Sen a :Director,
+        owl:NamedIndividual .
+
+:Mukesh_\(actor\) a :Actor,
+        owl:NamedIndividual .
+
+:Mário_Sérgio_\(actor\) a :Actor,
+        owl:NamedIndividual .
+
+:N._Sankaran_Nair a :Director,
+        owl:NamedIndividual .
+
+:Nadezhda_Kosheverova a :Director,
+        owl:NamedIndividual .
+
+:Nathan_Barr a :Musician,
+        owl:NamedIndividual .
+
+:Navya_Nair a :Actor,
+        owl:NamedIndividual .
+
+:Nebojša_Glogovac a :Actor,
+        owl:NamedIndividual .
+
+:Nigel_Cole a :Director,
+        owl:NamedIndividual .
+
+:Nikolai_Erdman a :Writer,
+        owl:NamedIndividual .
+
+:NikolaySimonov a :Person,
+        owl:NamedIndividual ;
+    :name "NikolaySimonov" .
+
+:Niniek_L._Karim a :Actor,
+        owl:NamedIndividual .
+
+:Nisha_Ganatra a :Director,
+        owl:NamedIndividual .
+
+:Noel_M._Smith a :Director,
+        owl:NamedIndividual .
+
+:Norman_S._Hall a :Writer,
+        owl:NamedIndividual .
+
+:Osanna a :Musician,
+        owl:NamedIndividual .
+
+:PJ_Torokvei a :Writer,
+        owl:NamedIndividual .
+
+<http://rpcw.di.uminho.pt/2024/cinema/Pat_O'Connor_(director)> a :Director,
+        owl:NamedIndividual .
+
+:Pate_Mustajärvi a :Actor,
+        owl:NamedIndividual .
+
+:Patrick_Doyle a :Musician,
+        owl:NamedIndividual .
+
+:Paul_Bartel a :Actor,
+        owl:NamedIndividual .
+
+:Paul_L._Stein a :Writer,
+        owl:NamedIndividual .
+
+:Penelope_Wilton a :Actor,
+        owl:NamedIndividual .
+
+<http://rpcw.di.uminho.pt/2024/cinema/Peter_O'Toole> a :Actor,
+        owl:NamedIndividual .
+
+:Philippe_Leroy_\(actor\) a :Actor,
+        owl:NamedIndividual .
+
+:Pirkka-Pekka_Petelius a :Actor,
+        owl:NamedIndividual .
+
+:Portugal a owl:NamedIndividual .
+
+:Poul_Reichhardt a :Actor,
+        owl:NamedIndividual .
+
+:Prithviraj_Sukumaran a :Actor,
+        owl:NamedIndividual .
+
+:Puntti_Valtonen a :Actor,
+        owl:NamedIndividual .
+
+:Quincy_Jones a :Musician,
+        owl:NamedIndividual .
+
+:Rainbeaux_Smith a :Actor,
+        owl:NamedIndividual .
+
+:Ramon_Estevez a :Actor,
+        owl:NamedIndividual .
+
+:Randy_Quaid a :Actor,
+        owl:NamedIndividual .
+
+:Rani_Mukerji a :Actor,
+        owl:NamedIndividual .
+
+:Raoul_André a :Director,
+        owl:NamedIndividual .
+
+:Ray_McCarey a :Director,
+        owl:NamedIndividual .
+
+:Ray_Milland a :Actor,
+        owl:NamedIndividual .
+
+:Renzo_Rossellini_\(composer\) a :Musician,
+        owl:NamedIndividual .
+
+:Rex_Ingram_\(actor\) a :Actor,
+        owl:NamedIndividual .
+
+:Riccardo_Freda a :Director,
+        owl:NamedIndividual .
+
+:Richard_Johnson_\(actor\) a :Actor,
+        owl:NamedIndividual .
+
+:Richard_Sale_\(director\) a :Writer,
+        owl:NamedIndividual .
+
+:Rider_Strong a :Actor,
+        owl:NamedIndividual .
+
+:Ritch_Brinkley a :Actor,
+        owl:NamedIndividual .
+
+:Riton_Liebman a :Actor,
+        owl:NamedIndividual .
+
+:Robert_Lowery_\(actor\) a :Actor,
+        owl:NamedIndividual .
+
+:Robert_Paige a :Actor,
+        owl:NamedIndividual .
+
+:Robert_Stack a :Actor,
+        owl:NamedIndividual .
+
+:Robert_Young_\(actor\) a :Actor,
+        owl:NamedIndividual .
+
+:Roberta_Collins a :Actor,
+        owl:NamedIndividual .
+
+:Rodney_Dangerfield a :Actor,
+        owl:NamedIndividual .
+
+:Roger_Edens a :Musician,
+        owl:NamedIndividual .
+
+:Ruhi_Singh a :Actor,
+        owl:NamedIndividual .
+
+:Russia a owl:NamedIndividual .
+
+:Sakari_Kuosmanen a :Actor,
+        owl:NamedIndividual .
+
+:Samaresh_Basu a :Writer,
+        owl:NamedIndividual .
+
+:Sanam_Saeed a :Actor,
+        owl:NamedIndividual .
+
+:Sandra_Oh a :Actor,
+        owl:NamedIndividual .
+
+:Santhosh_\(actor\) a :Actor,
+        owl:NamedIndividual .
+
+:Sarah_Chalke a :Actor,
+        owl:NamedIndividual .
+
+:Sastha a :Writer,
+        owl:NamedIndividual .
+
+:Satarupa_Pyne a :Actor,
+        owl:NamedIndividual .
+
+:Sathaar a :Actor,
+        owl:NamedIndividual .
+
+:Satya_Bandyopadhyay a :Actor,
+        owl:NamedIndividual .
+
+:Serena_Rossi a :Actor,
+        owl:NamedIndividual .
+
+:SergeiVasilyev a owl:NamedIndividual ;
+    :name "SergeiVasilyev" .
+
+:Sergej_Trifunović a :Actor,
+        owl:NamedIndividual .
+
+:Shepperd_Strudwick a :Actor,
+        owl:NamedIndividual .
+
+:Shirley_Ross a :Actor,
+        owl:NamedIndividual .
+
+:Shyam_\(composer\) a :Musician,
+        owl:NamedIndividual .
+
+:Simon_Cook_\(actor\) a :Actor,
+        owl:NamedIndividual .
+
+:Spain a owl:NamedIndividual .
+
+:Spencer_Gordon_Bennet a :Director,
+        owl:NamedIndividual .
+
+:Stanley_Rauh a :Writer,
+        owl:NamedIndividual .
+
+:Steve_Bartek a :Musician,
+        owl:NamedIndividual .
+
+:Sven_Gyldmark a :Musician,
+        owl:NamedIndividual .
+
+:Syed_Mohammad_Ahmed a :Actor,
+        owl:NamedIndividual .
+
+:Tassie_Cameron a :Writer,
+        owl:NamedIndividual .
+
+:Taye_Diggs a :Actor,
+        owl:NamedIndividual .
+
+:Ted_Knight a :Actor,
+        owl:NamedIndividual .
+
+:Teresa_Ann_Savoy a :Actor,
+        owl:NamedIndividual .
+
+:Terry_Frost_\(actor\) a :Actor,
+        owl:NamedIndividual .
+
+:The_Sketches a :Musician,
+        owl:NamedIndividual .
+
+:Tim_Firth a :Writer,
+        owl:NamedIndividual .
+
+:Tom_Payne_\(director\) a :Director,
+        owl:NamedIndividual .
+
+:Tuomari_Nurmio a :Actor,
+        owl:NamedIndividual .
+
+:Tyrone_Power a :Actor,
+        owl:NamedIndividual .
+
+:USA a :Country,
+        owl:NamedIndividual .
+
+:Utpal_Dutt a :Actor,
+        owl:NamedIndividual .
+
+:VarvaraMyasnikova a :Person,
+        owl:NamedIndividual ;
+    :name "1900-09-22",
+        "VarvaraMyasnikova" .
+
+:Vera_Carmi a :Actor,
+        owl:NamedIndividual .
+
+:Victor_McLaglen a :Actor,
+        owl:NamedIndividual .
+
+:Vincente_Minnelli a :Director,
+        owl:NamedIndividual .
+
+:Vincenzo_Salemme a :Actor,
+        owl:NamedIndividual .
+
+:Virginia_Kellogg a :Writer,
+        owl:NamedIndividual .
+
+:Virginia_Van_Upp a :Writer,
+        owl:NamedIndividual .
+
+:Vivien_Leigh a :Actor,
+        owl:NamedIndividual .
+
+:W._S._Van_Dyke a :Director,
+        owl:NamedIndividual .
+
+:Wally_Vernon a :Actor,
+        owl:NamedIndividual .
+
+:Walter_Matthau a :Actor,
+        owl:NamedIndividual .
+
+:William_Bendix a :Actor,
+        owl:NamedIndividual .
+
+:William_Marshall_\(bandleader\) a :Actor,
+        owl:NamedIndividual .
+
+:William_Tracy a :Actor,
+        owl:NamedIndividual .
+
+:Wim_Opbrouck a :Actor,
+        owl:NamedIndividual .
+
+:Wolf_Rilla a :Director,
+        owl:NamedIndividual .
+
+:Xavier_de_Montépin a :Writer,
+        owl:NamedIndividual .
+
+:Xia_Yu_\(actor\) a :Actor,
+        owl:NamedIndividual .
+
+:Xiang_Min a :Musician,
+        owl:NamedIndividual .
+
+:YevgeniShneider a :Person,
+        owl:NamedIndividual ;
+    :name "YevgeniShneider" .
+
+:Yuri_Lyubimov a :Actor,
+        owl:NamedIndividual .
+
+:Yvonne_Furneaux a :Actor,
+        owl:NamedIndividual .
+
+:Zarina_Wahab a :Actor,
+        owl:NamedIndividual .
+
+:Zoran_Simjanović a :Musician,
+        owl:NamedIndividual .
+
+:acted a owl:ObjectProperty ;
+    rdfs:domain :Person ;
+    rdfs:range :Film ;
+    owl:inverseOf :hasActor .
+
+:directed a owl:ObjectProperty ;
+    rdfs:domain :Person ;
+    rdfs:range :Film ;
+    owl:inverseOf :hasDirector .
+
+:hasActor a owl:ObjectProperty ;
+    rdfs:domain :Film ;
+    rdfs:range :Person .
+
+:hasDirector a owl:ObjectProperty ;
+    rdfs:domain :Film ;
+    rdfs:range :Person .
+
+:hasWriter a owl:ObjectProperty ;
+    rdfs:domain :Book ;
+    rdfs:range :Person .
+
+:Adam_Resnick a :Director,
+        :Writer,
+        owl:NamedIndividual .
+
+:Adolfo_Celi a :Director,
+        :Writer,
+        owl:NamedIndividual .
+
+:Ajitesh_Bandopadhyay a :Actor,
+        :Writer,
+        owl:NamedIndividual .
+
+:Asim_Abbasi a :Director,
+        :Writer,
+        owl:NamedIndividual .
+
+:Book a owl:Class ;
+    rdfs:subClassOf :Artwork .
+
+:Brian_Doyle-Murray a :Actor,
+        :Writer,
+        owl:NamedIndividual .
+
+:Cab_Calloway a :Actor,
+        :Musician,
+        owl:NamedIndividual .
+
+:Carlo_Vanzina a :Director,
+        :Writer,
+        owl:NamedIndividual .
+
+:Chevy_Chase a :Actor,
+        owl:NamedIndividual .
+
+:Chris_Elliott a :Actor,
+        :Writer,
+        owl:NamedIndividual .
+
+:Christian_Martin_\(filmmaker\) a :Director,
+        :Writer,
+        owl:NamedIndividual .
+
+:David_Buttolph a :Musician,
+        owl:NamedIndividual .
+
+:Edward_H._Griffith a :Director,
+        owl:NamedIndividual .
+
+:Eli_Roth a :Director,
+        :Writer,
+        owl:NamedIndividual .
+
+:Fernando_Di_Leo a :Director,
+        :Writer,
+        owl:NamedIndividual .
+
+:Gennaro_Nunziante a :Director,
+        :Writer,
+        owl:NamedIndividual .
+
+:Georges_Auric a :Musician,
+        owl:NamedIndividual .
+
+:Giovanni_Pastrone a :Director,
+        :Writer,
+        owl:NamedIndividual .
+
+:Goran_Paskaljević a :Director,
+        :Writer,
+        owl:NamedIndividual .
+
+:John_Farrow a :Director,
+        owl:NamedIndividual .
+
+:Jonathan_Demme a :Director,
+        :Writer,
+        owl:NamedIndividual .
+
+:Lenny_Van_Wesemael a :Director,
+        :Writer,
+        owl:NamedIndividual .
+
+:Lu_Xuechang a :Director,
+        :Writer,
+        owl:NamedIndividual .
+
+:Madhur_Bhandarkar a :Director,
+        :Writer,
+        owl:NamedIndividual .
+
+:Malcolm_McDowell a :Actor,
+        :Writer,
+        owl:NamedIndividual .
+
+:Martin_Sheen a :Actor,
+        :Director,
+        owl:NamedIndividual .
+
+:Nanni_Loy a :Director,
+        :Writer,
+        owl:NamedIndividual .
+
+:Nathan_Scott_\(composer\) a :Musician,
+        owl:NamedIndividual .
+
+:Nia_Dinata a :Director,
+        :Writer,
+        owl:NamedIndividual .
+
+:Nino_Manfredi a :Actor,
+        :Writer,
+        owl:NamedIndividual .
+
+:Seton_I._Miller a :Writer,
+        owl:NamedIndividual .
+
+:Sudhir_Mishra a :Director,
+        :Writer,
+        owl:NamedIndividual .
+
+:Tinto_Brass a :Director,
+        :Writer,
+        owl:NamedIndividual .
+
+:Victor_Young a :Musician,
+        owl:NamedIndividual .
+
+:composed a owl:ObjectProperty ;
+    rdfs:domain :Person ;
+    rdfs:range :Music ;
+    owl:inverseOf :composed .
+
+:produced a owl:ObjectProperty ;
+    rdfs:domain :Person ;
+    rdfs:range :Film .
+
+:screenwrited a owl:ObjectProperty .
+
+:Aki_Kaurismäki a :Director,
+        :Musician,
+        :Writer,
+        owl:NamedIndividual .
+
+:Artwork a owl:Class .
+
+:Atom_Egoyan a :Actor,
+        :Director,
+        :Writer,
+        owl:NamedIndividual .
+
+:Checco_Zalone a :Actor,
+        :Musician,
+        :Writer,
+        owl:NamedIndividual .
+
+:Harold_Ramis a :Director,
+        :Writer,
+        owl:NamedIndividual .
+
+:Helen_Mirren a :Actor,
+        owl:NamedIndividual .
+
+:Shirley_and_Dino a :Actor,
+        :Director,
+        :Writer,
+        owl:NamedIndividual .
+
+:Music a owl:Class ;
+    rdfs:subClassOf :Artwork .
+
+:Person a owl:Class .
+
+:Director a owl:Class ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :Person [ a owl:Restriction ;
+                        owl:onProperty :directed ;
+                        owl:someValuesFrom :Film ] ) ] .
+
+:Film a owl:Class .
+
+:Musician a owl:Class ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :Person [ a owl:Restriction ;
+                        owl:onProperty :composed ;
+                        owl:someValuesFrom :Music ] ) ] .
+
+:Writer a owl:Class ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :Person [ a owl:Restriction ;
+                        owl:onProperty :hasWriter ;
+                        owl:someValuesFrom :Book ] ) ] .
+
+:Actor a owl:Class ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :Person [ a owl:Restriction ;
+                        owl:onProperty :acted ;
+                        owl:someValuesFrom :Film ] ) ] .
+
+
