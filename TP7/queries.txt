@@ -1,0 +1,71 @@
+## Query ~##
+
+1
+
+PREFIX : <http://rpcw.di.uminho.pt/2024/avaliacao/>
+select (Count(?s)as ?n)  where {
+    ?s a :Aluno .
+} 
+
+2
+
+PREFIX : <http://rpcw.di.uminho.pt/2024/avaliacao/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+select (Count(?s)as ?n)  where {
+    ?s  rdf:type :Aluno;
+    	:curso "LCC"
+} 
+
+
+3 
+
+PREFIX : <http://rpcw.di.uminho.pt/2024/avaliacao/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+select ?s ?nome ?curso ?notanormal where {
+    ?s  rdf:type :Aluno;
+    	:temExame ?exame ;
+    	:nome ?nome;
+    	:curso ?curso .
+    ?exame :exameNormal ?notanormal .
+    FILTER((?notanormal > 10)) 
+} ORDER by Asc (?nome)
+
+
+4 
+
+
+PREFIX : <http://rpcw.di.uminho.pt/2024/avaliacao/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+select ?notaprojeto (Count(?s)as ?n) where {
+    ?s  rdf:type :Aluno ;
+    	:projeto ?notaprojeto .
+} GROUP BY (?notaprojeto)  ORDER by Desc (?notaprojeto)
+
+
+5
+
+
+PREFIX : <http://rpcw.di.uminho.pt/2024/avaliacao/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX : <http://rpcw.di.uminho.pt/2024/avaliacao/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT ?nome ?curso ?notaProjeto WHERE {
+      ?aluno a :Aluno;
+         :curso ?curso;
+         :nome ?nome;
+         :idAluno "PG49576";
+         :projeto ?notaProjeto .
+}
+
+
+
+6 
+
+PREFIX : <http://rpcw.di.uminho.pt/2024/avaliacao/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+select ?curso (COUNT(?s)as ?nalunos) where {
+    ?s  rdf:type :Aluno ;
+    	:curso ?curso
+} Group by ?curso Order by Asc (?curso)
+
+
